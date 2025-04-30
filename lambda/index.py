@@ -179,7 +179,7 @@ def lambda_handler(event, context):
                 prompt += f"アシスタント: {msg['content']}\n"
         
         # FastAPI の /generate 端點 URL
-        api_url = "https://18ac-35-247-134-17.ngrok-free.app/generate"  # change to my ngrok URL
+        api_url = "https://2c5e-34-87-103-85.ngrok-free.app/generate"  # change to my ngrok URL
         
         # prepare POST request data，according to GenerateRequest format
         data = {
